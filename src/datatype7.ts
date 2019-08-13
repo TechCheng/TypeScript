@@ -31,3 +31,23 @@ let boy: Boy = {
   cry() { },
   run() { }
 }
+
+
+
+//接口不仅可以继承接口，还可以继承类
+class Auto{
+  state=1
+  // private state2=0
+}
+
+interface AutoInterface extends Auto{
+
+}
+
+class X1 implements AutoInterface{
+  state =1 
+}
+
+class Bus extends Auto implements AutoInterface{
+
+}

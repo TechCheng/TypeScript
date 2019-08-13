@@ -9,5 +9,6 @@ import './datatype5'  //函数定义
 import './datatype6'  //类1：继承和成员修饰
 import './datatype6-1' // 类2：抽象类与多态
 import './datatype7'   //类与接口的关系
+import './datatype8'   //泛型
 let hello: string = 'Hello'
 document.querySelectorAll('.app')[0].innerHTML = hello
