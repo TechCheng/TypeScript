@@ -7,7 +7,7 @@ import './datatype3-3' //对象类型接口  4、可索引类型接口，当接�
 import './datatype4'  //函数类型接口
 import './datatype5'  //函数定义
 import './datatype6'  //类1：继承和成员修饰
-// import './datatype6'
-
+import './datatype6-1' // 类2：抽象类与多态
+import './datatype7'   //类与接口的关系
 let hello: string = 'Hello'
 document.querySelectorAll('.app')[0].innerHTML = hello
