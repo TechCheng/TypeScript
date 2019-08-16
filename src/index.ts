@@ -11,5 +11,8 @@ import './datatype6-1' // 类2：抽象类与多态
 import './datatype7'   //类与接口的关系
 import './datatype8'   //泛型
 import './datatype9'   //类与泛型约束
+import './datatype10'   //类型推断
+import './datatype10-1'   //类型兼容性
+import './datatype10-2'   //类型保护
 let hello: string = 'Hello'
 document.querySelectorAll('.app')[0].innerHTML = hello
