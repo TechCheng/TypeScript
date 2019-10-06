@@ -8,9 +8,11 @@ interface Add2 {
   (x: number, y: number): number
 }
 
-//函数声明方式3
+//函数声明方式3:类型别名
 type Add1 = (x: number, y: number) => number
 
+
+// 混合类型接口
 interface Lib {
   (): void;
   version: string;
