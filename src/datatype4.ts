@@ -1,4 +1,5 @@
-// 函数类型接口
+{
+  // 函数类型接口
 
 //函数类型1
 let add4: (x: number, y: number) => number
@@ -31,3 +32,4 @@ function getLib(){
 
 let b2=getLib()
 b2.doSth()
+}

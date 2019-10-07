@@ -1,11 +1,11 @@
 //类1：继承和成员修饰
 
 class Dog{
+  name:string
+  run(){}
   constructor (name:string){
     this.name=name
   }
-  name:string
-  run(){}
 }
 
 //类的成员属性都是实例属性，类的成员方法都是原型方法
@@ -19,11 +19,11 @@ console.log(dog)  //Dog {name: "wangwang"}
 
 //类的继承
 class Husky extends Dog {
+  color:string
   constructor(name:string,color:string){
     super(name)
     this.color=color
   }
-  color:string
 }
 
 
