@@ -14,9 +14,9 @@
 // import './datatype10'   //类型推断
 // import './datatype10-1'   //类型兼容性
 // import './datatype10-2'   //类型保护
-import './datatype11-1'   //高级类型1：交叉类型和联合类型
+// import './datatype11-1'   //高级类型1：交叉类型和联合类型
 import './datatype11-2'   //高级类型2：索引类型
-import './datatype11-3'   //高级类型3：映射类型
-import './datatype11-4'   //高级类型4：条件类型
+// import './datatype11-3'   //高级类型3：映射类型
+// import './datatype11-4'   //高级类型4：条件类型
 let hello: string = 'Hello'
 document.querySelectorAll('.app')[0].innerHTML = hello
